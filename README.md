@@ -1,5 +1,19 @@
 # 🎲 Sports Betting Bot
 
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Investimentos (RPi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/investimentos/README.md)** → **investimentos-betting-bot**
+
+### Containers Relacionados (investimentos)
+- [investimentos-brain](https://github.com/AslamSys/investimentos-brain)
+- [investimentos-trading-bot](https://github.com/AslamSys/investimentos-trading-bot)
+- [investimentos-technical-analysis](https://github.com/AslamSys/investimentos-technical-analysis)
+- [investimentos-news-sentiment](https://github.com/AslamSys/investimentos-news-sentiment)
+- [investimentos-ml-predictor](https://github.com/AslamSys/investimentos-ml-predictor)
+- [investimentos-portfolio-manager](https://github.com/AslamSys/investimentos-portfolio-manager)
+
+---
+
 **Container:** `betting-bot`  
 **Stack:** Python + Bet365 API (scraping)  
 **Estratégia:** Value Betting
@@ -90,6 +104,20 @@ def kelly_criterion(odds, prob_win, fraction=0.25):
     return max(0, kelly * fraction)  # Conservative fraction
 
 # Example
+
+## 🔗 Navegação
+
+**[🏠 AslamSys](https://github.com/AslamSys)** → **[📚 _system](https://github.com/AslamSys/_system)** → **[📂 Investimentos (RPi 5 16GB)](https://github.com/AslamSys/_system/blob/main/hardware/investimentos/README.md)** → **investimentos-betting-bot**
+
+### Containers Relacionados (investimentos)
+- [investimentos-brain](https://github.com/AslamSys/investimentos-brain)
+- [investimentos-trading-bot](https://github.com/AslamSys/investimentos-trading-bot)
+- [investimentos-technical-analysis](https://github.com/AslamSys/investimentos-technical-analysis)
+- [investimentos-news-sentiment](https://github.com/AslamSys/investimentos-news-sentiment)
+- [investimentos-ml-predictor](https://github.com/AslamSys/investimentos-ml-predictor)
+- [investimentos-portfolio-manager](https://github.com/AslamSys/investimentos-portfolio-manager)
+
+---
 fair_odds = calculate_fair_odds(1.8, 1.2)  # Home avg 1.8 goals, Away 1.2
 bookmaker_odds = 2.10
 edge = (fair_odds - bookmaker_odds) / fair_odds
