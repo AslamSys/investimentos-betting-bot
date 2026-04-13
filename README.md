@@ -135,3 +135,20 @@ if edge > 0.05:  # 5% minimum
 - ✅ Poisson model
 - ✅ Kelly Criterion
 - ✅ Bet365 scraping
+
+---
+
+## 🔐 Vault Integration
+
+As credenciais da Bet365 são obtidas do `mordomo-vault` via `service` auth. O betting-bot opera por agendamento, sem input de voz.
+
+```yaml
+Credenciais gerenciadas pelo vault:
+  - bet365_username
+  - bet365_password
+
+Auth mode: service
+Módulo token: ${VAULT_MODULE_TOKEN}
+```
+
+Veja: [mordomo-vault](https://github.com/AslamSys/mordomo-vault)
